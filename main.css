@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.brand-logo img{
+    top: 15px;
+    position: relative;
+    width: 350px;
+}
+.header{
+    width: 100%;
+    height: 700px;
+    background-image: url('https://img.purch.com/h/1000/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzAzNy8xNTMvb3JpZ2luYWwvemVicmEuanBn');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-carousel{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 100px;
+}
+.header-carousel h1{
+    color: white;
+    font-weight: 800;
+    max-width: 605px;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.destinations-body{
+    width: 95%;
+    margin: 0 auto;
+}
+.item{
+    height: 300px;
+}
+.destination-image{
+    width: 100% !important;
+    height: 100% !important;
+}
+.card-image img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.card-title{
+    font-weight: 700 !important;
+    color: aliceblue;
+}
+.destinations{
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.destinations-header{
+    padding-bottom: 50px;
+}
+.destinations-header p{
+    max-width: 605px;
+    margin: 0 auto;
+} 
+@media(max-width: 968px){
+    .brand-logo img{
+        width: 300px;
+    }
+    .header-carousel h1{
+        font-size: 30px;
+    }
+    .destinations-header h2{
+        font-size: 25px;
+    }
+}
+
+.featured-tours{
+    width: 95%;
+    margin: 0 auto;
+}
+.featured-image{
+    height: 400px !important;
+}
+.card-content h6{
+    font-weight: 800;
+}
+.featured-tours-header{
+    padding-left: 10px;
+}
+.places{
+    width: 95%;
+    margin:  0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.places-image-1{
+    height: 700px;
+}
+.places-image-2{
+    height: 350px;
+}
+.places-big{
+    font-size: 50px !important;
+    margin-bottom: 30px !important;
+}
+@media(max-width: 576px){
+    .places-image-1{
+        height: 350px;
+    }
+}
+
+.page-footer{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 200px !important;
+    margin-top: 100px !important;
+    padding: 100px !important;
+}
